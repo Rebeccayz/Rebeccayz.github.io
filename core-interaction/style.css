@@ -10,7 +10,8 @@ h1{
   border: 4px dotted:
   mediumvioletred;
   border-bottom-color: pink;
-}/
+
+}
 
 
 element.style{
@@ -22,6 +23,7 @@ a{
 }
 img{
   width: 100px;
+  margin-left: 200px;
 }
 
 #good{
