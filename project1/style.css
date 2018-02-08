@@ -61,6 +61,7 @@ h4{
   border-top-color:white;
   border-bottom: dashed;
   border-bottom-color:white;
+  border-width: 10px;
   font-size: 37px;
   font-family: baskerville;
 }
