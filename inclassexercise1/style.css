@@ -1,0 +1,53 @@
+body{
+  background-color: pink;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+h1{
+  background-color: beige;
+  font-size: 40px;
+  text-align: center;
+  border-width: 6px;
+  border-style: dotted;
+  border-color: orange;
+  border-bottom-color: pink;
+}
+
+h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border-width: 6px;
+  border-style: double;
+  border-color: pink;
+  border-bottom-color: pink;
+}
+element.style{
+  text-decoration-skip-ink:
+}
+a{
+  font-size: 100px;
+  color:white;
+}
+img{
+  width: 100px;
+}
+
+#good{
+  background-color: brown;
+}
+
+#evil{
+  background-color: lightgreen;
+}
+.na{
+  font-family:Helvetica;
+
+  color:white;
+}
+.sa{
+  font-family: Georgia;
+  color:white;
+}

@@ -1,14 +1,18 @@
 body{
   background-color: red;
 }
-
+title{
+font-size: 20px
+}
 h1{
-  background-color: beige;
+  background-color: red;
   text-align: center;
   border: 4px dotted:
   mediumvioletred;
   border-bottom-color: pink;
-}
+}/
+
+
 element.style{
   text-decoration-skip-ink:
 }
@@ -26,4 +30,10 @@ img{
 
 #evil{
   background-color: lightgreen;
+}
+.na{
+  font-family:Helvetica
+}
+.sa{
+  font-family: Georgia;
 }
