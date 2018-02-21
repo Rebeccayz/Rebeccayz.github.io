@@ -1,0 +1,9 @@
+body{
+  background color:black;
+  border-style: solid;
+  border-top-style:;
+  border-width: 20px;
+  border-color: rgb(188,188,188);
+  width:4000px;
+  height: 8000px;
+}
