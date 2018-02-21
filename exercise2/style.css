@@ -1,9 +1,28 @@
 body{
-  background color:black;
   border-style: solid;
-  border-top-style:;
   border-width: 20px;
   border-color: rgb(188,188,188);
-  width:4000px;
-  height: 8000px;
+  width:3000px;
+  height: 4000px;
+  background-color: black;
+  margin-left: 1300px;
+}
+
+.context{
+  border-color: rgb(188,188,188);
+  border-top-style:groove;
+  background-color: rgb(244,244,244);
+  height:4000px;
+}
+
+h1{
+  font-family: baskerville;
+  font-size: 10px;
+  color: rgb(144,136,125);
+}
+
+h2{
+  font-family: georgia;
+  font-size:10px;
+  color: rgb(144,136,125);
 }
