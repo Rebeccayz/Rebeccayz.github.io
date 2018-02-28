@@ -1,0 +1,21 @@
+body{
+height:5000px;
+
+}
+
+.starry{
+  filter: blur(6px);
+  transition: all 0.25s;
+  height:2000px;
+  position:fixed;
+  top:100px;
+}
+
+.starry:hover{
+  filter: blur(0px);
+}
+
+img{
+  display: inline-block;
+  height: 100%;
+}
