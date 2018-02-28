@@ -1,14 +1,16 @@
 body{
 height:5000px;
 background color: black;
+font-family: Baskerville;
 }
 
 .starry{
   filter: blur(6px);
   transition: all 0.25s;
-  height:2000px;
+  height:1500px;
   position:fixed;
   top:100px;
+  margin-top: 30%;
 }
 
 .starry:hover{
@@ -25,21 +27,48 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
+
 }
 
 li {
+    font-size: 53px;
     float: left;
+
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 80px 350px;
     text-decoration: none;
+
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: black;
+    text-decoration-color: blue;
+}
+
+li a:hover {
+    background-color: rgb(16,30,69);
+}
+
+.active {
+    background-color:rgb(16,30,69);
+}
+
+.title{
+  filter: blur(6px);
+  transition: all 0.25s;
+  margin-left: 138%;
+  width:100%;
+  font-size: 130px;
+  padding:4%;
+  font-family: sans-serif;
+}
+
+.title:hover{
+    filter:blur(0px);
 }
