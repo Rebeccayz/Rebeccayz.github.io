@@ -22,7 +22,7 @@ font-family: Baskerville;
 
 img{
   display: inline-block;
-  margin-left: 41%;
+  margin-left: 85%;
   height: 120%;
 }
 
@@ -84,7 +84,7 @@ h1{
   font-size: 60px;
   font-family: sans-serif;
   margin-left: 42%;
-  margin-top:38%;
+  margin-top:14%;
   letter-spacing: 8px;
 }
 
@@ -94,6 +94,30 @@ h1:hover{
 }
 
 h1 a{
+  color: white;
+  text-decoration:none;
+}
+
+h2{
+  filter: blur(6px);
+  transition: all 0.25s;
+  color:white;
+  font-size: 70px;
+  font-family: sans-serif;
+  margin-left: 6%;
+  margin-top:8%;
+  letter-spacing: 8px;
+  width: 20%;
+  height:2%;
+}
+
+h2:hover{
+  filter:blur(0px);
+  background-color: rgb(51,121,219);
+  brightness:(0.2);
+}
+
+h2 a{
   color: white;
   text-decoration:none;
 }
