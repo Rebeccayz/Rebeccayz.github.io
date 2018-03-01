@@ -1,6 +1,7 @@
 body{
 background:black;
-height:5000px;
+height:3000px;
+width:5900px;
 font-family: Baskerville;
 }
 
@@ -62,10 +63,18 @@ li a:hover {
   background-color:rgb(16,30,69);
 }
 
+.current {
+  background-color:rgb(51,121,219);
+}
+
+.current:hover{
+  filter:blur(0px);
+}
+
 .title{
   filter: blur(6px);
   transition: all 0.25s;
-  margin-left: 139%;
+  margin-left: 140%;
   width:100%;
   font-size: 130px;
   padding:4%;
@@ -83,7 +92,7 @@ h1{
   font-size: 60px;
   font-family: sans-serif;
   margin-left: 42%;
-  margin-top:141%;
+  margin-top:82%;
   letter-spacing: 8px;
 }
 
@@ -100,7 +109,7 @@ h1 a{
 .i1{
   filter: blur(6px);
   transition: all 0.25s;
-  height:22%;
+  height:27%;
   width:5%;
   position:absolute;
   top:100px;
@@ -110,18 +119,18 @@ h1 a{
 
 .i1:hover{
   filter: blur(0px);
-  transform: scale(1.6);
+  transform: scale(2);
 }
 
 .i2{
   filter: blur(6px);
   transition: all 0.25s;
-  height:30%;
+  height:25%;
   width:10%;
   position:absolute;
   top:100px;
-  margin-top: 22%;
-  margin-left: 5%;
+  margin-top: 25.1%;
+  margin-left: 11%;
 }
 
 .i2:hover{
@@ -158,10 +167,26 @@ h1 a{
 
 .i4:hover{
   filter: blur(0px);
-  transform: scale(1.4);
+  transform: scale(2.4);
 }
 
 .i5{
+  filter: blur(6px);
+  transition: all 0.25s;
+  height:20%;
+  width:5%;
+  position:absolute;
+  top:100px;
+  margin-top: 41%;
+  margin-left: 16.2%;
+}
+
+.i5:hover{
+  filter: blur(0px);
+  transform: scale(1.4);
+}
+
+.i6{
   filter: blur(6px);
   transition: all 0.25s;
   height:40%;
@@ -171,8 +196,71 @@ h1 a{
   margin-top: 36%;
   margin-left: 42.7%;
 }
-
-.i5:hover{
+.i6:hover{
   filter: blur(0px);
   transform: scale(1.4);
+}
+
+.i7{
+  filter: blur(6px);
+  transition: all 0.25s;
+  height:20%;
+  width:8%;
+  position:absolute;
+  top:100px;
+  margin-top: 61.15%;
+  margin-left: 77.6%;
+}
+
+.i7:hover{
+  filter: blur(0px);
+  transform: scale(2);
+}
+
+.i8{
+  filter: blur(6px);
+  transition: all 0.25s;
+  height:40%;
+  width:30%;
+  position:absolute;
+  top:100px;
+  margin-top: 53.7%;
+
+}
+
+.i8:hover{
+  filter: blur(0px);
+  transform: scale(3);
+}
+
+.i9{
+  filter: blur(6px);
+  transition: all 0.25s;
+  height:39.2%;
+  width:30%;
+  position:absolute;
+  top:100px;
+  margin-top: 61.2%;
+  margin-left: 39.3%;
+}
+
+.i9:hover{
+  filter: blur(0px);
+  transform: scale(1.3);
+}
+
+.i10{
+  filter: blur(6px);
+  transition: all 0.25s;
+  height:24.5%;
+  width:30%;
+  position:absolute;
+  top:100px;
+  margin-top: 53.71%;
+  margin-left: 20.2%;
+}
+
+.i10:hover{
+  filter: blur(0px);
+  transform: scale(2);
 }
