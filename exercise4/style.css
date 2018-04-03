@@ -1,0 +1,89 @@
+body{
+  width:1000px;
+  height:500px;
+  background-color: white;
+}
+
+
+h1{
+  font-size: 50px;
+  font-family: Avenir;
+  color: rgb(148,136,125);
+  margin-left: 50%;
+  margin-top: 230px;
+  width:600px;
+}
+
+h2{
+  font-size: 18px;
+  font-family:optima;
+  color: brown;
+  margin-left: 55%;
+  margin-top: 30px;
+  line-height:35px;
+}
+
+h3{
+  margin-left: 150px;
+  margin-top: 60px;
+}
+
+.dots{
+  width:1000px;
+  height:300px;
+}
+.start{
+  margin-top: 400px;
+  color:darkred;
+  font-size: 25px;
+  background-color: beige;
+  letter-spacing: 2.2px;
+  width:420px;
+  height:60px;
+  margin-left: 500px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background:pink;
+	-moz-border-radius: 25%;
+	-webkit-border-radius: 25%;
+	border-radius: 55%;
+  margin-top:100px;
+  margin-left: 300px;
+}
+
+.green {
+	width: 100px;
+	height: 100px;
+	background:lightgreen;
+	-moz-border-radius: 25%;
+	-webkit-border-radius: 25%;
+	border-radius: 55%;
+  margin-top:10px;
+  margin-left: 600px;
+}
+
+.blue {
+	width: 100px;
+	height: 100px;
+	background:lightblue;
+	-moz-border-radius: 25%;
+	-webkit-border-radius: 25%;
+	border-radius: 55%;
+  margin-top:-50px;
+  margin-left: 800px;
+}
+
+.purple {
+	width: 100px;
+	height: 100px;
+	background:purple;
+	-moz-border-radius: 25%;
+	-webkit-border-radius: 25%;
+	border-radius: 55%;
+  margin-top:-30px;
+  margin-left: 20px;
+}
+/* Cleaner, but slightly less support: use "50%" as value */

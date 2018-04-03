@@ -1,0 +1,210 @@
+body{
+background:white;
+height:3000px;
+width:6100px;
+font-family: Avenir;
+}
+
+ul {
+  filter: drop-shadow(0px);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul:hover{
+  filter:drop-shadow(8px 8px 10px gray);
+}
+
+li {
+  font-size: 60px;
+  float: left;
+}
+
+li a {
+  filter: drop-shadow(0px);
+  display: block;
+  width: 23%;
+  color: black;
+  text-align: center;
+  padding: 80px 600px;
+  text-decoration: none;
+}
+
+li a:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+  background-color: rgb(254,212,221);
+}
+
+.active {
+  background-color:rgb(254,212,221);
+}
+
+.title{
+  filter: drop-shadow(0px);
+  margin-left: 100%;
+  width:100%;
+  font-size: 150px;
+  padding:4%;
+  font-family: sans-serif;
+}
+
+.title:hover{
+  filter: drop-shadow(8px 8px 10px gray);
+}
+
+h1{
+  color:black;
+  filter:drop-shadow(0px);
+  font-size: 60px;
+  margin-left: 44%;
+  margin-top:25%;
+  letter-spacing: 8px;
+  bottom:10px;
+  position:fixed;
+}
+
+h1:hover{
+  filter:drop-shadow(8px 8px 10px gray);
+}
+
+h1 a{
+  color: black;
+  text-decoration:none;
+}
+
+h2{
+  position:absolute;
+  height:300px;
+  width:900px;
+  font-size: 20px;
+  color:black;
+  filter:drop-shadow(0px);
+  font-size: 70px;
+  margin-left: 18%;
+  margin-top:30%;
+  letter-spacing: 11px;
+  z-index:3;
+}
+
+h2:hover{
+  filter:drop-shadow(8px 8px 10px gray);
+}
+
+h2 a{
+  color: black;
+  text-decoration:none;
+}
+
+h3{
+  color:black;
+  filter:drop-shadow(0px);
+  font-size: 60px;
+  margin-left: 6.5%;
+  margin-top:40%;
+  letter-spacing: 8px;
+  bottom:10px;
+  position:fixed;
+}
+
+h3:hover{
+  filter:drop-shadow(8px 8px 10px gray);
+}
+
+h3 a{
+  color: black;
+  text-decoration:none;
+}
+
+h4{
+  color:white;
+  font-size: 60px;
+}
+
+.intro{
+  position:absolute;
+  background-color: rgb(254,212,221);
+  height:900px;
+  width:2200px;
+  margin-top: 1480px;
+  z-index:2;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  max-height:800px;
+  margin-top: 200px;
+  position: relative;
+  margin-left: 1400px;
+  z-index:1;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  margin-top: -200px;
+  margin-left: 270px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  margin-left: -120px;
+  top: 0;
+}
+
+.mySlides {
+  display: none;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#ap {
+    font-size: 100px;
+    position: fixed;
+    margin-left: 600px;
+    top: 200px;
+    height:100px;
+    width:80px;
+    left: 0;
+    transition: left 1s;
+    transform: scaleX(-1); /* the horse emoji points to the right by default, so I need to flip it */
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
