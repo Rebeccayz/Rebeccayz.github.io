@@ -45,14 +45,15 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-opacity-off";
 }
 
-var horse = document.getElementById("ap")
+
+var ap = document.getElementById("ap")
 
 window.addEventListener("scroll", onWindowScroll)
 
 function onWindowScroll() {
-    if (window.pageYOffset > 1%) {
-        ap.style.left = "90%"
+    if (window.pageYOffset >400 ) {
+        ap.style.right= "90%"
     } else {
-        ap.style.left = "0"
+        ap.style.right = "0"
     }
 }

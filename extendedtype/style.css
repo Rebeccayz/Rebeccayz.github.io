@@ -26,7 +26,7 @@ li {
 li a {
   filter: drop-shadow(0px);
   display: block;
-  width: 23%;
+  width: 28%;
   color: black;
   text-align: center;
   padding: 80px 600px;
@@ -35,11 +35,11 @@ li a {
 
 li a:hover {
   filter: drop-shadow(8px 8px 10px gray);
-  background-color: rgb(254,212,221);
+  background-color: rgb(242,232,222,0.5);
 }
 
 .active {
-  background-color:rgb(254,212,221);
+  background-color:rgb(242,232,222,0.5);
 }
 
 .title{
@@ -82,7 +82,7 @@ h2{
   font-size: 20px;
   color:black;
   filter:drop-shadow(0px);
-  font-size: 70px;
+  font-size: 60px;
   margin-left: 18%;
   margin-top:30%;
   letter-spacing: 11px;
@@ -123,9 +123,23 @@ h4{
   font-size: 60px;
 }
 
+h5{
+  color white;
+  font-size: 60px;
+}
+
 .intro{
   position:absolute;
-  background-color: rgb(254,212,221);
+  background-color: rgb(242,232,222,0.5);
+  height:900px;
+  width:2200px;
+  margin-top: 1480px;
+  z-index:2;
+}
+
+.api{
+  position:absolute;
+  background-color: rgb(242,232,222,0.5);
   height:900px;
   width:2200px;
   margin-top: 1480px;
@@ -182,27 +196,64 @@ h4{
   animation-duration: 1.5s;
 }
 
+#a {
+  animation: 1s;
+}
+
+@keyframes a{
+    0% {
+        margin-top: 600px;
+        margin-left: 300px;
+    }
+
+    40% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        top: 80px;
+        transform: scaleY(.6);
+    }
+
+    60% {
+        transform: scaleY(1);
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes ap{
+    0% {
+        left:0;
+    }
+
+    100% {
+        left:70%;
+    }
+}
+
 #ap {
+  animation: ap 1s;
     font-size: 100px;
     position: fixed;
-    margin-left: 600px;
-    top: 200px;
-    height:100px;
-    width:80px;
-    left: 0;
-    transition: left 1s;
-    transform: scaleX(-1); /* the horse emoji points to the right by default, so I need to flip it */
+    margin-left: 0px;
+    left:70%;
+    text-align: center;
+    top: 1000px;
+    background-color: rgb(95,94,102,0.5);
+    height:250px;
+    width:1940px;
+    transition: right 1s;
+    transform: scaleX(1);
 }
 
-@-webkit-keyframes fade {
+@-webkit-keyframes mySlides fade {
   from {opacity: .4}
   to {opacity: 1}
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
