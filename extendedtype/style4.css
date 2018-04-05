@@ -21,7 +21,8 @@ ul:hover{
 li {
   font-size: 60px;
   float: left;
-  width:2100px;
+    width:2100px;
+
 }
 
 li a {
@@ -57,10 +58,10 @@ li a:hover {
 }
 
 h1{
-  color:black;
+  color:rgb(242,232,222);
   filter:drop-shadow(0px);
   font-size: 60px;
-  margin-left: 48%;
+  margin-left: 44%;
   margin-top:25%;
   letter-spacing: 8px;
   bottom:10px;
@@ -72,22 +73,19 @@ h1:hover{
 }
 
 h1 a{
-  color: black;
+  color: rgb(242,232,222);
   text-decoration:none;
 }
 
 h2{
-  position:absolute;
-  height:300px;
-  width:900px;
-  font-size: 20px;
-  color:black;
+  color:rgb(242,232,222);
   filter:drop-shadow(0px);
   font-size: 60px;
-  margin-left: 18%;
-  margin-top:30%;
-  letter-spacing: 6px;
-  z-index:3;
+  margin-left: 10%;
+  margin-top:5%;
+  letter-spacing: 8px;
+  bottom:10px;
+  position:fixed;
 }
 
 h2:hover{
@@ -95,7 +93,7 @@ h2:hover{
 }
 
 h2 a{
-  color: black;
+  color: rgb(242,232,222);
   text-decoration:none;
 }
 
