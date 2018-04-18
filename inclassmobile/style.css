@@ -1,0 +1,28 @@
+.background{
+  width:3000px;
+  height:2300px;
+  z-index: -1;
+}
+
+.frame{
+  border:2px;
+  width: 1200px;
+  height:500px;
+  margin-left:18%;
+  margin-top: 25px;
+
+}
+
+iframe{
+  width: 2000px;
+  height:450px;
+  z-index: -2;
+  margin-left:20%;
+  margin-top: 25px;
+}
+
+img{
+  width:10px;
+  height:4000px;
+
+}
