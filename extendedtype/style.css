@@ -1,7 +1,27 @@
+.col-left {
+    float: left;
+    width: 70%;
+}
+
+.col-right {
+    float: right;
+    width: 28%;
+}
+
+@media screen and (max-width: 600px) {
+    .col-left {
+        float: none;
+        width: 100%;
+    }
+
+    .col-right {
+        float: none;
+        width: 100%;
+    }
+}
+
 body{
 background:white;
-height:3000px;
-width:6300px;
 font-family: Avenir;
 }
 
@@ -21,7 +41,6 @@ ul:hover{
 li {
   font-size: 60px;
   float: left;
-  width:2100px;
 }
 
 li a {
@@ -30,7 +49,6 @@ li a {
   width: 28%;
   color: black;
   text-align: center;
-  padding: 80px 600px;
   text-decoration: none;
 }
 
@@ -78,8 +96,6 @@ h1 a{
 
 h2{
   position:absolute;
-  height:300px;
-  width:900px;
   font-size: 20px;
   color:black;
   filter:drop-shadow(0px);
@@ -146,8 +162,6 @@ h5{
 .api{
   position:absolute;
   background-color: rgb(242,232,222,0.5);
-  height:400px;
-  width:2000px;
   margin-top: 2000px;
   z-index:2;
 }
