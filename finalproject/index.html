@@ -19,14 +19,22 @@ href="style.css"/>
 </ul>
 </div>
 <div class="background">
-<img src="bg.jpg">
-</div>
-<button onclick="myFunction()">Click Me</button>
-
-<div id="b">
-  <img src="b.jpg">
+<img style="width:420px;height:590px;" src="bg.jpg">
 </div>
 
+<div class="bb">
+<button type="button" onclick="myFunction()";"document.getElementById("b").style.display="block"" style="font-size: 8px; color: rgb(226,235,237,0.5)">Welcome</button>
+</div>
+
+<div id="b" style="display:none">
+  <img style="width: 420px;height: 325px;" src="b.jpg">
+</div>
+
+<div id="picture_container">
+  <img id="current_image">
+</div>
+
+<div id="button"></div>
 
 <h1><a href="#">BACK TO TOP</a></h1>
 <script src="script.js"></script>
