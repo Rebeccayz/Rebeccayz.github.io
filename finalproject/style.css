@@ -219,6 +219,7 @@ filter:drop-shadow(0px);
 #picture_container_two img {
   width: 140px;
   height: 90px;
+  display: none;
   margin-left: 147px;
   margin-top: 132px;
 }
@@ -233,6 +234,7 @@ filter:drop-shadow(0px);
   background: black;
   margin-top: 170px;
   margin-left: 190px;
+  z-index: 0;
 }
 
 

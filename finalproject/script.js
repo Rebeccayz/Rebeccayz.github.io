@@ -41,7 +41,7 @@ function cyclePicturesTwo() {
   }
 
   current_image_two.src = 'i/' + my_pictures_two[picture_number];
-
+  current_image_two.style.display="block";
   console.log(my_pictures_two[picture_number]);
 
   picture_number++;
